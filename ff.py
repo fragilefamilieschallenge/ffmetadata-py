@@ -13,7 +13,7 @@ import requests
 
 # -----------------------------------------------------------------------------
 
-BASE_URL = 'http://api.fragilefamiliesmetadata.org'
+BASE_URL = 'http://api.metadata.fragilefamilies.princeton.edu'
 
 
 # -----------------------------------------------------------------------------
