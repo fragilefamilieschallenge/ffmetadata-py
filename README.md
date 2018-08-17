@@ -41,7 +41,7 @@ Querying variables is done using the `search` function. In the simplest case, th
 ```
 
 #### Find variable(s) where data_source='constructed' AND name ends with 'e'
-Multiple search criteria can be specified by passin in a list of dictionaries. These are combined with an `AND` clause.
+Multiple search criteria can be specified by passing in a list of dictionaries. These are combined with an `AND` clause.
 ```
 >>> ff.search([{'name': 'data_source', 'op': 'eq', 'val': 'constructed'}, {'name': 'name', 'op': 'like', 'val': '%e'}])
 ['cf1age', 'cf1ethrace', ...
@@ -55,7 +55,7 @@ To specify an `OR` clause for multiple search combination, replace the search cr
 ```
 
 #### Find variable(s) where data_source='constructed' OR (name ends with 'f' AND data_source='questionnaire')
-More complicated search queries can b constructed, by combining several AND/OR clauses. In such cases, at any point where you want to specify a sub-query, pass in a dictionary keyed by either an `AND` or `OR`, with the values being valid search criteria themselves (either dictionaries of name/op/val keys or more complicated sub-queries themselves).
+More complicated search queries can b constructed, by combining several AND/OR clauses. In such cases, at any point where you want to specify a sub-query, pass in a dictionary keyed by either an `AND` or `OR`, with the values being valid search criteria themselves - either dictionaries of name/op/val keys, or sub-queries (defined recursively).
 ```
 >>> ff.search({'or': [{'name': 'data_source', 'op': 'eq', 'val': 'constructed'}, {'and': [{'name': 'name', 'op': 'like', 'val': '%f'}, {'name': 'data_source', 'op': 'eq', 'val': 'questionnaire'}]}]})
 ['cf1intmon', 'cf1intyr', ...
