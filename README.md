@@ -19,9 +19,9 @@ The easiest way to install and use the module is to do a `pip install`
 pip install ffmetadata-py
 ```
 
-This step will also install any dependencies if needed (currently, the `requests`, `urllib` and `simplejson` libraries).
+This step will also install any dependencies if needed (currently, the `requests` and `simplejson` libraries).
 
-Alternatively, you can clone this Github repository and place the `ff` folder and it's contents at a location accessible by your Python 3 installation (most commonly the `site-packages` folder for your Python installation). In this scenario, make sure that you have recent versions of the `requests`, `urllib` and `simplejson` libraries installed.
+Alternatively, you can clone this Github repository and place the `ff` folder and it's contents at a location accessible by your Python 3 installation (most commonly the `site-packages` folder for your Python installation). In this scenario, make sure that you have recent versions of the `requests` and `simplejson` libraries installed.
 
 Getting Started
 ---------------
