@@ -14,7 +14,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/fragilefamilieschallenge/ffmetadata-py",
     packages=['ff'],
-	install_requires=['simplejson','urllib3','requests'],
+	install_requires=['simplejson','urllib','requests'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

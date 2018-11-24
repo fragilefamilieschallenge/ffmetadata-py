@@ -39,7 +39,7 @@ import json
 import urllib
 import requests
 
-__version__ = '1.0.7'
+__version__ = '1.0.8'
 name = "ffmetadata-py"
 BASE_URL = 'http://api.metadata.fragilefamilies.princeton.edu'
 

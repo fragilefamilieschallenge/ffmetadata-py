@@ -1,9 +1,32 @@
+[![PyPI version](https://badge.fury.io/py/ffmetadata-py.svg)](https://badge.fury.io/py/ffmetadata-py)
+
 # ffmetadata-py
 Python wrapper for Fragile Families Metadata API
 
-This Python package provides convenient wrappers to interface with the [Fragile Families Metadata API](https://github.com/fragilefamilieschallenge/metadata_app). By downloading and importing the single `ff.py` module, users can query the metadata variables. No other software installation is necessary. The `ff.py` module has been tested on Python 3.6, and should work on most Python 3.x installations.
+This Python package provides convenient wrappers to interface with the [Fragile Families Metadata API](https://github.com/fragilefamilieschallenge/metadata_app). By downloading and importing the `ff` module, users can query the metadata variables. No other software installation is necessary.
 
-To get started, import the ff module using `import ff`
+Requirements
+------------
+
+The `ff` module has been tested on Python 3.6, and should work on most Python 3.x installations.
+
+Installation
+------------
+
+The easiest way to install and use the module is to do a `pip install`
+
+```
+pip install ffmetadata-py
+```
+
+This step will also install any dependencies if needed (currently, the `requests`, `urllib` and `simplejson` libraries).
+
+Alternatively, you can clone this Github repository and place the `ff` folder and it's contents at a location accessible by your Python 3 installation (most commonly the `site-packages` folder for your Python installation). In this scenario, make sure that you have recent versions of the `requests`, `urllib` and `simplejson` libraries installed.
+
+Getting Started
+---------------
+
+To get started, import the ff module using `import ff`. Follow the examples below on how to use the library.
 
 Examples
 --------
