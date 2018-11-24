@@ -1,5 +1,3 @@
-[![PyPI version](https://badge.fury.io/py/ffmetadata-py.svg)](https://pypi.org/project/ffmetadata-py/)
-
 # ffmetadata-py
 Python wrapper for Fragile Families Metadata API
 
@@ -13,7 +11,7 @@ The `ff` module has been tested on Python 3.6, and should work on most Python 3.
 Installation
 ------------
 
-The easiest way to install and use the module is to do a `pip install`
+The `ffmetadata-py` package is [available on The Python Package Index (PyPI)](https://pypi.org/project/ffmetadata-py/). The easiest way to install and use the module is to do a `pip install`
 
 ```
 pip install ffmetadata-py
