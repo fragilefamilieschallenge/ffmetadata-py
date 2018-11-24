@@ -1,4 +1,4 @@
-[![PyPI version](https://badge.fury.io/py/ffmetadata-py.svg)](https://badge.fury.io/py/ffmetadata-py)
+[![PyPI version](https://badge.fury.io/py/ffmetadata-py.svg)](https://pypi.org/project/ffmetadata-py/)
 
 # ffmetadata-py
 Python wrapper for Fragile Families Metadata API
