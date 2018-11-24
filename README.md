@@ -1,4 +1,4 @@
-[![PyPI version](https://badge.fury.io/py/ffmetadata-py.svg)](https://badge.fury.io/py/ffmetadata-py)
+[![PyPI version](https://badge.fury.io/py/ffmetadata-py.svg)](https://pypi.org/project/ffmetadata-py/)
 
 # ffmetadata-py
 Python wrapper for Fragile Families Metadata API
@@ -21,7 +21,7 @@ pip install ffmetadata-py
 
 This step will also install any dependencies if needed (currently, the `requests` and `simplejson` libraries).
 
-Alternatively, you can clone this Github repository and place the `ff` folder and it's contents at a location accessible by your Python 3 installation (most commonly the `site-packages` folder for your Python installation). In this scenario, make sure that you have recent versions of the `requests` and `simplejson` libraries installed.
+Alternatively, you can clone this Github repository and place the `ff` folder and it's contents at a location accessible by your Python 3.x installation (most commonly the `site-packages` folder for your Python installation). In this scenario, make sure that you have recent versions of the `requests` and `simplejson` libraries installed.
 
 Getting Started
 ---------------
