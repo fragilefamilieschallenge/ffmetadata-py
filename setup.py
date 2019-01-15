@@ -5,9 +5,9 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ffmetadata-py",
-    version="1.1.0",
-    author="Vineet Bansal",
-    author_email="vineetb@princeton.edu",
+    version="1.1.1",
+    author="Alex Kindel, Vineet Bansal",
+    author_email="akindel@princeton.edu, vineetb@princeton.edu",
     description="Python wrapper for The Fragile Families Metadata API",
     long_description=long_description,
     long_description_content_type="text/markdown",
