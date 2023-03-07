@@ -39,9 +39,9 @@ import json
 import urllib
 import requests
 
-__version__ = '1.1.1'
+__version__ = '2.0.0'
 name = "ffmetadata-py"
-BASE_URL = 'http://api.metadata.fragilefamilies.princeton.edu'
+BASE_URL = 'https://api.metadata.ffcws.princeton.edu'
 
 
 def select(var_name, attr_name=None):
