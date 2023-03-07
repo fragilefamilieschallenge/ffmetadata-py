@@ -82,4 +82,4 @@ More complicated search queries can b constructed, by combining several AND/OR c
 ['cf1intmon', 'cf1intyr', ...
 ```
 
-For more complicated search queries, you may find the interactive [Advanced Search](http://metadata.fragilefamilies.princeton.edu/search) page on the project website useful.
+For more complicated search queries, you may find the interactive [Advanced Search](http://metadata.ffcws.princeton.edu/search) page on the project website useful.
